@@ -44,15 +44,15 @@ A ReactJS template which would help developers to start frontend development wit
 
 -   Install the following eslint plugins, parser for linting purposes: `eslint`, `@typescript-eslint/parser`, `@typescript-eslint/eslint-plugin`, `eslint-plugin-react`
 
-```bash
-npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react
-```
+    ```bash
+    npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react
+    ```
 
 -   Install these prettier related dependencies for code formatting: `prettier`, `eslint-config-prettier`, `eslint-plugin-prettier`
 
-```bash
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier
-```
+    ```bash
+    npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+    ```
 
 ### Reference
 
