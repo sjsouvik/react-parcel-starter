@@ -1,6 +1,6 @@
 # React Parcel starter
 
-A ReactJS template which would help developers to start frontend development with ReactJS quickly without doing any setup on their own.
+A ReactJS template powered by Parcel which would help developers to start frontend development quickly with ReactJS, TypeScript, testing, linting, etc. without doing any setup on their own.
 
 ## Tech stack
 
@@ -9,6 +9,7 @@ A ReactJS template which would help developers to start frontend development wit
 -   Parcel
 -   Babel
 -   jest, React Testing Library
+-   ESLint, Prettier
 
 ## Setup jest & React Testing Library
 
