@@ -5,6 +5,7 @@ A ReactJS template which would help developers to start frontend development wit
 ## Tech stack
 
 - React, React DOM
+- TypeScript
 - Parcel
 - Babel
 - jest, React Testing Library
@@ -32,6 +33,12 @@ A ReactJS template which would help developers to start frontend development wit
 - Install `@testing-library/jest-dom` for custom DOM element matchers(e.g. `.toBeInTheDocument()`, `.toHaveBeenCalledWith()`, etc.)
 - Add `setupTests.js` file inside `src` to add the code which is repeating in each test file(e.g. import of jest-dom for extra matchers) and provide that as a module in jest config `setupFilesAfterEnv` option as mentioned here [here](https://jestjs.io/docs/configuration#setupfilesafterenv-array). For more jest related configurations, refer to [this](https://jestjs.io/docs/configuration)
 - Install `identity-obj-proxy` as a dev-dependency and add that in jest config `moduleNameMapper` option to mock CSS modules. Refer to these links for more details [jest doc](https://jestjs.io/docs/webpack#mocking-css-modules), [github issue](https://github.com/jestjs/jest/issues/3094#issuecomment-575024136)
+
+## Add TypeScript
+
+- Install TypeScript as a dev dependency
+- Execute `npx tsc --init` to add `tsconfig.json`
+- Install dev dependencies - `@types/react`, `@types/react-dom` to have TypeScript types for React and React DOM
 
 ## Support
 
